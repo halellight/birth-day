@@ -52,7 +52,7 @@ const Oyin = () => {
         <MdMenu size={30} color="#ffffff" className="dark:#000000" />
       </div>
       <div className="w-full h-full justify-center items-center flex ">
-        <div className="absolute top-40 left-0 w-full h-[740px] bg-[#000000cc]"></div>
+        <div className="absolute top-40 left-0 w-full h-[760px] bg-[#000000cc]"></div>
         <video src={videoBg} autoPlay loop />
         <div className="absolute w-[522px] h-full flex flex-col top-0 justify-center items-center text-red-50 font-medium">
           <h1 className="p-4 text-center text-lg md:text-xl lg:text-2xl">
