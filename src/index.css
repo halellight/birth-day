@@ -3,11 +3,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes slide-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(5vh);
+  }
+}
+
 body {
   margin: 0;
   font-family: "Euclid Circular B";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .card {
+    animation: slide-fade-in both;
+  }
 }
 
 code {
