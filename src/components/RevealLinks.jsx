@@ -6,6 +6,7 @@ export const RevealLinks = () => {
     <section className="grid place-content-center gap-2 bg-[#FF69B4] px-8 py-24 text-black">
       <FlipLink href="#">AINA</FlipLink>
       <FlipLink href="#">GLORIA</FlipLink>
+      <FlipLink href="#">FOLASHADE</FlipLink>
       <FlipLink href="#">OYINDAMOLA</FlipLink>
       <FlipLink href="#">OLUWATAMILORE</FlipLink>
     </section>
